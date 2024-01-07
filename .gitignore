@@ -1,0 +1,21 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# blender backups
+*.blend[1-9]
+*.blend1
+*.hdr
+*cache_fluid_*
+
+# videos
+*.mp4
+!backdrops.mp4
+!/src/assets/speechvids/*.mp4
+/src/assets/places/*/renders

@@ -1,0 +1,54 @@
+{
+  "name": "vite-starter-prendy",
+  "version": "0.1.5",
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoMcPhee/vite-starter-prendy.git"
+  },
+  "keywords": [
+    "vite",
+    "template",
+    "prendy",
+    "react",
+    "babylonjs"
+  ],
+  "author": "Hugo McPhee",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "link-libraries": "node scripts/linkLibraries.js",
+    "unlink-libraries": "node scripts/unlinkLibraries.js"
+  },
+  "dependencies": {
+    "@babylonjs/core": "6.31.0",
+    "@babylonjs/gui": "6.31.0",
+    "@babylonjs/inspector": "6.31.0",
+    "@babylonjs/loaders": "6.31.0",
+    "chootils": "^0.3.9",
+    "delay": "^5.0.0",
+    "prendy": "^0.10.7",
+    "react": "^18.2.0",
+    "react-babylonjs": "^3.1.26",
+    "react-dom": "^18.2.0",
+    "react-promise-suspense": "^0.3.3",
+    "react-spring": "^9.6.1",
+    "repond": "^0.10.2",
+    "repond-movers": "^0.10.3",
+    "stringz": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9",
+    "vite-plugin-pwa": "^0.14.4",
+    "vite-tsconfig-paths": "^4.2.0"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
